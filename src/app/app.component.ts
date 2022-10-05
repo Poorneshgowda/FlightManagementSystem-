@@ -1,30 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { Doctor } from './model/doctor.model';
-import { DoctorService } from './service/doctor.service';
+import { Component } from '@angular/core';
+import { Vendor } from './model/vendor.model';
+import { VendorService } from './service/vendor.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-  ngOnInit(): void {
-    
+export class AppComponent {
+  title = 'MyFlightApp';
+  
   }
 
-  /*
-  docArr: Doctor[] = [];
-  
-  constructor(private doctorService: DoctorService){
-
-  }
-  
-  ngOnInit(): void {
-    this.doctorService.getAllDoctors().subscribe(data=>{
-      this.docArr= data;
-    });
-    
-  }
-  */
- 
-}

@@ -1,0 +1,37 @@
+
+form {
+    border: 10px solid grey;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.103);
+  }
+
+
+
+
+table{
+  margin-left: 350px;
+  margin-right: 350px;
+	width: 50%;
+	font-size: 15px;
+	color: #444;
+	white-space: nowrap;
+  background-color: rgba(128, 128, 128, 0.103);
+	border-collapse: collapse;
+}
+table>thead{
+	background-color: gray;
+	color: #fff;
+}
+table>thead th{
+	padding: 10px;
+}
+
+table th,
+table td{
+	border: 1px solid #00000017;
+	padding: 10px 15px
+	
+}

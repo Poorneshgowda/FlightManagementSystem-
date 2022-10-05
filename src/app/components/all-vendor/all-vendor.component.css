@@ -1,0 +1,29 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+table{
+	width: 100%;
+	font-size: 15px;
+	color: #444;
+	white-space: nowrap;
+	border-collapse: collapse;
+}
+table>thead{
+	background-color: gray;
+	color: #fff;
+}
+table>thead th{
+	padding: 15px;
+}
+
+table th,
+table td{
+	border: 1px solid #00000017;
+	padding: 10px 15px
+	
+}
