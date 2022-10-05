@@ -1,0 +1,29 @@
+<!--<p>all-bookings works!</p> -->
+
+
+
+
+
+
+<div class="table_responsive" >
+    <table class="table table-bordered" >
+        <thead>
+            <tr>
+                <th>Doctor Id</th> 
+                
+                <th>Doctor Name</th>
+               
+                <th>Speciality</th> 
+                
+            </tr>
+        </thead>
+    <tbody *ngFor="let s of docArr">
+        <tr>
+            <td>{{s.id}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.speciality}}</td>
+        
+    <br />
+    </tr>
+    </tbody>
+    </table>
